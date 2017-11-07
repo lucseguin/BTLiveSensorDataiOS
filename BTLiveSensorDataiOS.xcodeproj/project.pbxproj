@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C54BCAE1D6401C60079CE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C54BCAD1D6401C60079CE01 /* main.m */; };
+		8C54BCB11D6401C60079CE01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C54BCB01D6401C60079CE01 /* AppDelegate.m */; };
+		8C54BCB41D6401C60079CE01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C54BCB31D6401C60079CE01 /* ViewController.m */; };
+		8C54BCB71D6401C60079CE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C54BCB51D6401C60079CE01 /* Main.storyboard */; };
+		8C54BCB91D6401C60079CE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C54BCB81D6401C60079CE01 /* Assets.xcassets */; };
+		8C54BCBC1D6401C60079CE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C54BCBA1D6401C60079CE01 /* LaunchScreen.storyboard */; };
+		8C54BCC71D6401C60079CE01 /* BTLiveSensorDataiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C54BCC61D6401C60079CE01 /* BTLiveSensorDataiOSTests.m */; };
+		8C54BCD21D6401C60079CE01 /* BTLiveSensorDataiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C54BCD11D6401C60079CE01 /* BTLiveSensorDataiOSUITests.m */; };
+		8C54BCE01D6402130079CE01 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C54BCDF1D6402130079CE01 /* CoreBluetooth.framework */; };
+		8C54BCE21D64021A0079CE01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C54BCE11D64021A0079CE01 /* Foundation.framework */; };
+		8C54BCE51D6403A00079CE01 /* SerialGATT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C54BCE31D6403A00079CE01 /* SerialGATT.m */; };
+		8C54BCEE1D6419910079CE01 /* DeviceGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C54BCED1D6419910079CE01 /* DeviceGridView.m */; };
+		8C54BCF01D654CC00079CE01 /* notconnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C54BCEF1D654CC00079CE01 /* notconnected.png */; };
+		8C54BCF21D654D0F0079CE01 /* connected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C54BCF11D654D0F0079CE01 /* connected.png */; };
+		8C6224D51FAA371500775FDC /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6224D41FAA371500775FDC /* GraphView.m */; };
+		8CAF54241D765F9500D5F398 /* 01HiRes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF54231D765F9500D5F398 /* 01HiRes.jpg */; };
+		8CAF54261D7660CF00D5F398 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CAF54251D7660CF00D5F398 /* compass.png */; };
+		8CDF12C31FAB9E1A004007A8 /* DirectionGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDF12C21FAB9E1A004007A8 /* DirectionGraph.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C54BCC31D6401C60079CE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C54BCA11D6401C60079CE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C54BCA81D6401C60079CE01;
+			remoteInfo = BTLiveSensorDataiOS;
+		};
+		8C54BCCE1D6401C60079CE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C54BCA11D6401C60079CE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C54BCA81D6401C60079CE01;
+			remoteInfo = BTLiveSensorDataiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C54BCA91D6401C60079CE01 /* BTLiveSensorDataiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTLiveSensorDataiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C54BCAD1D6401C60079CE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C54BCAF1D6401C60079CE01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C54BCB01D6401C60079CE01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C54BCB21D6401C60079CE01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C54BCB31D6401C60079CE01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C54BCB61D6401C60079CE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C54BCB81D6401C60079CE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C54BCBB1D6401C60079CE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C54BCBD1D6401C60079CE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C54BCC21D6401C60079CE01 /* BTLiveSensorDataiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLiveSensorDataiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C54BCC61D6401C60079CE01 /* BTLiveSensorDataiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLiveSensorDataiOSTests.m; sourceTree = "<group>"; };
+		8C54BCC81D6401C60079CE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C54BCCD1D6401C60079CE01 /* BTLiveSensorDataiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLiveSensorDataiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C54BCD11D6401C60079CE01 /* BTLiveSensorDataiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLiveSensorDataiOSUITests.m; sourceTree = "<group>"; };
+		8C54BCD31D6401C60079CE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C54BCDF1D6402130079CE01 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8C54BCE11D64021A0079CE01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C54BCE31D6403A00079CE01 /* SerialGATT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialGATT.m; sourceTree = "<group>"; };
+		8C54BCE41D6403A00079CE01 /* SerialGATT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialGATT.h; sourceTree = "<group>"; };
+		8C54BCEC1D6419910079CE01 /* DeviceGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceGridView.h; sourceTree = "<group>"; };
+		8C54BCED1D6419910079CE01 /* DeviceGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceGridView.m; sourceTree = "<group>"; };
+		8C54BCEF1D654CC00079CE01 /* notconnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notconnected.png; sourceTree = "<group>"; };
+		8C54BCF11D654D0F0079CE01 /* connected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connected.png; sourceTree = "<group>"; };
+		8C6224C91FAA330900775FDC /* BTLiveSensorDataiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTLiveSensorDataiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		8C6224D41FAA371500775FDC /* GraphView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		8C6224D61FAA372C00775FDC /* GraphView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		8CAF54231D765F9500D5F398 /* 01HiRes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01HiRes.jpg; sourceTree = "<group>"; };
+		8CAF54251D7660CF00D5F398 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		8CDF12C11FAB9DFF004007A8 /* DirectionGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectionGraph.h; sourceTree = "<group>"; };
+		8CDF12C21FAB9E1A004007A8 /* DirectionGraph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionGraph.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C54BCA61D6401C60079CE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C54BCE21D64021A0079CE01 /* Foundation.framework in Frameworks */,
+				8C54BCE01D6402130079CE01 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C54BCBF1D6401C60079CE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C54BCCA1D6401C60079CE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C54BCA01D6401C60079CE01 = {
+			isa = PBXGroup;
+			children = (
+				8C54BCE11D64021A0079CE01 /* Foundation.framework */,
+				8C54BCDF1D6402130079CE01 /* CoreBluetooth.framework */,
+				8C54BCAB1D6401C60079CE01 /* BTLiveSensorDataiOS */,
+				8C54BCC51D6401C60079CE01 /* BTLiveSensorDataiOSTests */,
+				8C54BCD01D6401C60079CE01 /* BTLiveSensorDataiOSUITests */,
+				8C54BCAA1D6401C60079CE01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C54BCAA1D6401C60079CE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C54BCA91D6401C60079CE01 /* BTLiveSensorDataiOS.app */,
+				8C54BCC21D6401C60079CE01 /* BTLiveSensorDataiOSTests.xctest */,
+				8C54BCCD1D6401C60079CE01 /* BTLiveSensorDataiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C54BCAB1D6401C60079CE01 /* BTLiveSensorDataiOS */ = {
+			isa = PBXGroup;
+			children = (
+				8CAF54251D7660CF00D5F398 /* compass.png */,
+				8CAF54231D765F9500D5F398 /* 01HiRes.jpg */,
+				8C54BCEF1D654CC00079CE01 /* notconnected.png */,
+				8C54BCF11D654D0F0079CE01 /* connected.png */,
+				8C54BCAF1D6401C60079CE01 /* AppDelegate.h */,
+				8C54BCB01D6401C60079CE01 /* AppDelegate.m */,
+				8C54BCB21D6401C60079CE01 /* ViewController.h */,
+				8C54BCB31D6401C60079CE01 /* ViewController.m */,
+				8C54BCE31D6403A00079CE01 /* SerialGATT.m */,
+				8C54BCE41D6403A00079CE01 /* SerialGATT.h */,
+				8C54BCB51D6401C60079CE01 /* Main.storyboard */,
+				8C54BCB81D6401C60079CE01 /* Assets.xcassets */,
+				8C54BCBA1D6401C60079CE01 /* LaunchScreen.storyboard */,
+				8C54BCBD1D6401C60079CE01 /* Info.plist */,
+				8C54BCAC1D6401C60079CE01 /* Supporting Files */,
+				8C54BCEC1D6419910079CE01 /* DeviceGridView.h */,
+				8C54BCED1D6419910079CE01 /* DeviceGridView.m */,
+				8C6224C91FAA330900775FDC /* BTLiveSensorDataiOS-Bridging-Header.h */,
+				8C6224D41FAA371500775FDC /* GraphView.m */,
+				8C6224D61FAA372C00775FDC /* GraphView.h */,
+				8CDF12C11FAB9DFF004007A8 /* DirectionGraph.h */,
+				8CDF12C21FAB9E1A004007A8 /* DirectionGraph.m */,
+			);
+			path = BTLiveSensorDataiOS;
+			sourceTree = "<group>";
+		};
+		8C54BCAC1D6401C60079CE01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C54BCAD1D6401C60079CE01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C54BCC51D6401C60079CE01 /* BTLiveSensorDataiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C54BCC61D6401C60079CE01 /* BTLiveSensorDataiOSTests.m */,
+				8C54BCC81D6401C60079CE01 /* Info.plist */,
+			);
+			path = BTLiveSensorDataiOSTests;
+			sourceTree = "<group>";
+		};
+		8C54BCD01D6401C60079CE01 /* BTLiveSensorDataiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C54BCD11D6401C60079CE01 /* BTLiveSensorDataiOSUITests.m */,
+				8C54BCD31D6401C60079CE01 /* Info.plist */,
+			);
+			path = BTLiveSensorDataiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C54BCA81D6401C60079CE01 /* BTLiveSensorDataiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C54BCD61D6401C60079CE01 /* Build configuration list for PBXNativeTarget "BTLiveSensorDataiOS" */;
+			buildPhases = (
+				8C54BCA51D6401C60079CE01 /* Sources */,
+				8C54BCA61D6401C60079CE01 /* Frameworks */,
+				8C54BCA71D6401C60079CE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTLiveSensorDataiOS;
+			productName = BTLiveSensorDataiOS;
+			productReference = 8C54BCA91D6401C60079CE01 /* BTLiveSensorDataiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C54BCC11D6401C60079CE01 /* BTLiveSensorDataiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C54BCD91D6401C60079CE01 /* Build configuration list for PBXNativeTarget "BTLiveSensorDataiOSTests" */;
+			buildPhases = (
+				8C54BCBE1D6401C60079CE01 /* Sources */,
+				8C54BCBF1D6401C60079CE01 /* Frameworks */,
+				8C54BCC01D6401C60079CE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C54BCC41D6401C60079CE01 /* PBXTargetDependency */,
+			);
+			name = BTLiveSensorDataiOSTests;
+			productName = BTLiveSensorDataiOSTests;
+			productReference = 8C54BCC21D6401C60079CE01 /* BTLiveSensorDataiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C54BCCC1D6401C60079CE01 /* BTLiveSensorDataiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C54BCDC1D6401C60079CE01 /* Build configuration list for PBXNativeTarget "BTLiveSensorDataiOSUITests" */;
+			buildPhases = (
+				8C54BCC91D6401C60079CE01 /* Sources */,
+				8C54BCCA1D6401C60079CE01 /* Frameworks */,
+				8C54BCCB1D6401C60079CE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C54BCCF1D6401C60079CE01 /* PBXTargetDependency */,
+			);
+			name = BTLiveSensorDataiOSUITests;
+			productName = BTLiveSensorDataiOSUITests;
+			productReference = 8C54BCCD1D6401C60079CE01 /* BTLiveSensorDataiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C54BCA11D6401C60079CE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Luc;
+				TargetAttributes = {
+					8C54BCA81D6401C60079CE01 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CVRSXN8PUD;
+						LastSwiftMigration = 0900;
+					};
+					8C54BCC11D6401C60079CE01 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8C54BCA81D6401C60079CE01;
+					};
+					8C54BCCC1D6401C60079CE01 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8C54BCA81D6401C60079CE01;
+					};
+				};
+			};
+			buildConfigurationList = 8C54BCA41D6401C60079CE01 /* Build configuration list for PBXProject "BTLiveSensorDataiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C54BCA01D6401C60079CE01;
+			productRefGroup = 8C54BCAA1D6401C60079CE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C54BCA81D6401C60079CE01 /* BTLiveSensorDataiOS */,
+				8C54BCC11D6401C60079CE01 /* BTLiveSensorDataiOSTests */,
+				8C54BCCC1D6401C60079CE01 /* BTLiveSensorDataiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C54BCA71D6401C60079CE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C54BCBC1D6401C60079CE01 /* LaunchScreen.storyboard in Resources */,
+				8C54BCB91D6401C60079CE01 /* Assets.xcassets in Resources */,
+				8CAF54241D765F9500D5F398 /* 01HiRes.jpg in Resources */,
+				8C54BCF21D654D0F0079CE01 /* connected.png in Resources */,
+				8CAF54261D7660CF00D5F398 /* compass.png in Resources */,
+				8C54BCB71D6401C60079CE01 /* Main.storyboard in Resources */,
+				8C54BCF01D654CC00079CE01 /* notconnected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C54BCC01D6401C60079CE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C54BCCB1D6401C60079CE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C54BCA51D6401C60079CE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C54BCB41D6401C60079CE01 /* ViewController.m in Sources */,
+				8C54BCB11D6401C60079CE01 /* AppDelegate.m in Sources */,
+				8C54BCAE1D6401C60079CE01 /* main.m in Sources */,
+				8C6224D51FAA371500775FDC /* GraphView.m in Sources */,
+				8CDF12C31FAB9E1A004007A8 /* DirectionGraph.m in Sources */,
+				8C54BCE51D6403A00079CE01 /* SerialGATT.m in Sources */,
+				8C54BCEE1D6419910079CE01 /* DeviceGridView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C54BCBE1D6401C60079CE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C54BCC71D6401C60079CE01 /* BTLiveSensorDataiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C54BCC91D6401C60079CE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C54BCD21D6401C60079CE01 /* BTLiveSensorDataiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C54BCC41D6401C60079CE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C54BCA81D6401C60079CE01 /* BTLiveSensorDataiOS */;
+			targetProxy = 8C54BCC31D6401C60079CE01 /* PBXContainerItemProxy */;
+		};
+		8C54BCCF1D6401C60079CE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C54BCA81D6401C60079CE01 /* BTLiveSensorDataiOS */;
+			targetProxy = 8C54BCCE1D6401C60079CE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C54BCB51D6401C60079CE01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C54BCB61D6401C60079CE01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C54BCBA1D6401C60079CE01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C54BCBB1D6401C60079CE01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C54BCD41D6401C60079CE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8C54BCD51D6401C60079CE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C54BCD71D6401C60079CE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CVRSXN8PUD;
+				INFOPLIST_FILE = BTLiveSensorDataiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.uqo.luc.Essai.BTLiveSensorDataiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BTLiveSensorDataiOS/BTLiveSensorDataiOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8C54BCD81D6401C60079CE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = CVRSXN8PUD;
+				INFOPLIST_FILE = BTLiveSensorDataiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.uqo.luc.Essai.BTLiveSensorDataiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BTLiveSensorDataiOS/BTLiveSensorDataiOS-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8C54BCDA1D6401C60079CE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BTLiveSensorDataiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.uqo.luc.Essai.BTLiveSensorDataiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTLiveSensorDataiOS.app/BTLiveSensorDataiOS";
+			};
+			name = Debug;
+		};
+		8C54BCDB1D6401C60079CE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BTLiveSensorDataiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.uqo.luc.Essai.BTLiveSensorDataiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTLiveSensorDataiOS.app/BTLiveSensorDataiOS";
+			};
+			name = Release;
+		};
+		8C54BCDD1D6401C60079CE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BTLiveSensorDataiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.uqo.luc.Essai.BTLiveSensorDataiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTLiveSensorDataiOS;
+			};
+			name = Debug;
+		};
+		8C54BCDE1D6401C60079CE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BTLiveSensorDataiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.uqo.luc.Essai.BTLiveSensorDataiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTLiveSensorDataiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C54BCA41D6401C60079CE01 /* Build configuration list for PBXProject "BTLiveSensorDataiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C54BCD41D6401C60079CE01 /* Debug */,
+				8C54BCD51D6401C60079CE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C54BCD61D6401C60079CE01 /* Build configuration list for PBXNativeTarget "BTLiveSensorDataiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C54BCD71D6401C60079CE01 /* Debug */,
+				8C54BCD81D6401C60079CE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C54BCD91D6401C60079CE01 /* Build configuration list for PBXNativeTarget "BTLiveSensorDataiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C54BCDA1D6401C60079CE01 /* Debug */,
+				8C54BCDB1D6401C60079CE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C54BCDC1D6401C60079CE01 /* Build configuration list for PBXNativeTarget "BTLiveSensorDataiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C54BCDD1D6401C60079CE01 /* Debug */,
+				8C54BCDE1D6401C60079CE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C54BCA11D6401C60079CE01 /* Project object */;
+}
